@@ -1,6 +1,6 @@
-# 📚 SkillSwap – README
+#  SkillSwap – README
 
-## 🔍 Présentation du projet
+## Présentation du projet
 
 **Nom du projet** : SkillSwap  
 **Description** : Plateforme web permettant aux utilisateurs d’échanger des compétences entre eux, sans paiement.  
@@ -8,7 +8,7 @@
 
 ---
 
-## ❗ Problèmes à résoudre
+## Problèmes à résoudre
 
 ### Problèmes rencontrés :
 - Difficulté à trouver des cours personnalisés ou abordables.
@@ -20,7 +20,7 @@
 
 ---
 
-## 👥 Utilisateurs cibles et rôles
+##  Utilisateurs cibles et rôles
 
 | Type d'utilisateur | Description | Rôles et permissions |
 |--------------------|-------------|-----------------------|
@@ -28,7 +28,7 @@
 | **Utilisateur inscrit** | Membre de la plateforme | - Gérer son profil<br>- Publier des offres d’échange<br>- Rechercher des partenaires<br>- Envoyer/recevoir des propositions<br>- Utiliser la messagerie<br>- Noter après un échange |
 | **Admin** | Gestionnaire de la plateforme | - Gérer les utilisateurs<br>- Modérer les offres<br>- Supprimer le contenu abusif<br>- Superviser les évaluations |
 
-### 🔐 Lien avec les technologies
+### Lien avec les technologies
 - **Laravel** : Middleware `auth`, `role`, Policies
 - **React** : Routes protégées selon les rôles
 
@@ -36,7 +36,7 @@
 
 ## ✨ Fonctionnalités
 
-### 👤 Utilisateur simple
+###  Utilisateur simple
 - Inscription / Connexion
 - Création & gestion de profil
 - Publication d’offres d’échange
@@ -45,14 +45,14 @@
 - Messagerie privée
 - Évaluation post-échange
 
-### 🛠️ Administrateur
+### Administrateur
 - Gestion des utilisateurs
 - Suppression / modification d’offres
 - Supervision des évaluations
 
 ---
 
-## 🧾 User Stories
+##  User Stories
 
 - En tant que **visiteur**, je veux **voir des profils et m’informer**, afin de **décider si je veux m’inscrire**.
 - En tant qu’**utilisateur inscrit**, je veux **publier une offre d’échange**, afin de **trouver un partenaire pour apprendre une nouvelle compétence**.
@@ -60,7 +60,7 @@
 
 ---
 
-## 📌 Priorisation des fonctionnalités
+## Priorisation des fonctionnalités
 
 | Fonctionnalité | Priorité |
 |----------------|----------|
@@ -74,7 +74,7 @@
 
 ---
 
-## ⚙️ Contraintes techniques
+## Contraintes techniques
 
 - **Frameworks** : Laravel (Backend), React (Frontend)
 - **Base de données** : MySQL
