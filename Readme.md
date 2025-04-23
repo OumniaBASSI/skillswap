@@ -34,7 +34,7 @@
 
 ---
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 ###  Utilisateur simple
 - Inscription / Connexion
