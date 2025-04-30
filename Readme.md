@@ -1,5 +1,21 @@
 #  SkillSwap – README
 
+## Table des matières
+
+1. [Présentation du projet](#présentation-du-projet)
+2. [Problèmes à résoudre](#problèmes-à-résoudre)
+    - [Problèmes rencontrés](#problèmes-rencontrés)
+    - [Besoins exprimés](#besoins-exprimés)
+3. [Utilisateurs cibles et rôles](#utilisateurs-cibles-et-rôles)
+    - [Lien avec les technologies](#lien-avec-les-technologies)
+4. [Fonctionnalités](#fonctionnalités)
+    - [Utilisateur simple](#utilisateur-simple)
+    - [Administrateur](#administrateur)
+5. [User Stories](#user-stories)
+6. [Priorisation des fonctionnalités](#priorisation-des-fonctionnalités)
+7. [Contraintes techniques](#contraintes-techniques)
+8. [UML](#uml)
+
 ## Présentation du projet
 
 **Nom du projet** : SkillSwap  
@@ -83,3 +99,6 @@
 
 ---
 
+
+## UML
+![Diagramme UML](document/UseCaseDiagram.jpg)
