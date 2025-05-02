@@ -1,4 +1,4 @@
-#  SkillSwap – README
+# SkillSwap – README
 
 ## Table des matières
 
@@ -13,8 +13,12 @@
     - [Administrateur](#administrateur)
 5. [User Stories](#user-stories)
 6. [Priorisation des fonctionnalités](#priorisation-des-fonctionnalités)
-7. [Contraintes techniques](#contraintes-techniques)
-8. [UML](#uml)
+7. [Planification du projet](#planification-du-projet)
+   - [Liste des tâches à réaliser](#liste-des-tâches-à-réaliser)
+   - [Outils nécessaires au développement](#outils-nécessaires-au-développement)
+   - [Outils nécessaires à lexploitation](#outils-nécessaires-à-lexploitation)
+8. [Contraintes techniques](#contraintes-techniques)
+9. [UML](#uml)
 
 ## Présentation du projet
 
@@ -100,5 +104,76 @@
 ---
 
 
+
+
+## Planification du Projet 
+
+---
+
+### Liste des tâches à réaliser
+
+#### Conception (4 jours)
+- Création des diagrammes UML (cas d'utilisation, classes, séquence)
+- Réalisation des maquettes des interfaces clés 
+- Définition de l’architecture du projet 
+
+#### Développement Back-End (6 jours)
+- Initialisation du projet Laravel + configuration de la base de données
+- Implémentation de l’authentification (inscription, connexion, middleware)
+- Création des modèles, contrôleurs, routes API (utilisateurs, offres, demandes)
+- Gestion des permissions via Policies (rôles : utilisateur, admin)
+
+#### Développement Front-End (6 jours)
+- Initialisation du projet React avec Vite
+- Création des pages principales : Accueil, Connexion, Tableau de bord, Offres
+- Connexion à l’API + affichage conditionnel selon les rôles
+
+#### Tests (2 jours)
+- Tests fonctionnels sur les formulaires, les échanges et les connexions
+- Vérification des validations côté front et back
+- Tests de sécurité 
+#### Déploiement (2 jours)
+- Préparation de la version de production
+- Déploiement du back-end et front-end sur Hostinger
+- Tests post-déploiement 
+
+
+###  Outils nécessaires au développement
+
+#### Langages & Frameworks
+- **Back-End** : PHP (Laravel)
+- **Front-End** : JavaScript (React)
+- **Base de données** : MySQL
+
+#### Environnement de développement
+- IDE : Visual Studio Code
+- Serveur local : XAMPP
+- Navigateurs de test : Chrome, Firefox, Edge
+
+#### Versioning & collaboration
+- Git (en local)
+- GitHub (hébergement distant du code)
+
+#### Design & UI
+- StarUML pour les diagrammes
+- Figma pour les maquettes
+- Tailwind CSS/ Bootstrap pour le style
+- FontAwesome / Lucide Icons pour les icônes
+
+---
+
+### Outils nécessaires à l’exploitation
+
+| Besoin                         | Solution prévue                        |
+|--------------------------------|----------------------------------------|
+| **Hébergement**                | Hostinger                              |
+| **Monitoring & logs**          | Laravel Log     |
+| **Sauvegarde base de données** | Automatisée via Hostinger              |
+| **Sécurité**                   | Certificat SSL/TLS (Hostinger), pare-feu intégré |
+
+
 ## UML
+- **Use Case Diagram** :
 ![Diagramme UML](document/UseCaseDiagram.jpg)
+- **Class Diagram** :
+![Diagramme UML](document/ClassDiagram1.jpg)
