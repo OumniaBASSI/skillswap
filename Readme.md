@@ -171,7 +171,7 @@
 | **Sauvegarde base de données** | Automatisée via Hostinger              |
 | **Sécurité**                   | Certificat SSL/TLS (Hostinger), pare-feu intégré |
 
-
+---
 ## UML
 - **Use Case Diagram** :
 ![Diagramme UML](document/UseCaseDiagram.jpg)
