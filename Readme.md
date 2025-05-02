@@ -12,6 +12,8 @@
     - [Utilisateur simple](#utilisateur-simple)
     - [Administrateur](#administrateur)
 5. [User Stories](#user-stories)
+    - [User Stories pour l’utilisateur](#User-Stories-pour-lutilisateur)
+    - [User Stories pour l’administrateur ](#User-Stories-pour-ladministrateur)
 6. [Priorisation des fonctionnalités](#priorisation-des-fonctionnalités)
 7. [Planification du projet](#planification-du-projet)
    - [Liste des tâches à réaliser](#liste-des-tâches-à-réaliser)
@@ -74,9 +76,44 @@
 
 ##  User Stories
 
-- En tant que **visiteur**, je veux **voir des profils et m’informer**, afin de **décider si je veux m’inscrire**.
-- En tant qu’**utilisateur inscrit**, je veux **publier une offre d’échange**, afin de **trouver un partenaire pour apprendre une nouvelle compétence**.
-- En tant qu’**admin**, je veux **gérer les comptes et contenus**, afin de **garantir la qualité de la plateforme**.
+### User Stories pour l’utilisateur
+ - En tant qu’utilisateur, je souhaite m’inscrire sur la plateforme afin de créer un compte et commencer à utiliser SkillSwap.
+
+- En tant qu’utilisateur, je souhaite me connecter à mon compte afin d’accéder à mes fonctionnalités personnalisées.
+
+- En tant qu’utilisateur, je souhaite réinitialiser mon mot de passe si je l’ai oublié afin de pouvoir récupérer l’accès à mon compte.
+
+- En tant qu’utilisateur, je souhaite gérer mon profil afin de mettre à jour mes informations personnelles et mes compétences.
+
+- En tant qu’utilisateur, je souhaite rechercher des partenaires afin de trouver des personnes avec qui échanger des compétences.
+
+- En tant qu’utilisateur, je souhaite consulter les profils d'autres utilisateurs afin d’évaluer les partenaires potentiels.
+
+- En tant qu’utilisateur, je souhaite publier une offre d’échange afin de proposer mes compétences à la communauté.
+
+- En tant qu’utilisateur, je souhaite signaler une offre si je la juge inappropriée ou abusive.
+
+- En tant qu’utilisateur, je souhaite envoyer une proposition à un autre utilisateur afin de démarrer un échange de compétences.
+
+- En tant qu’utilisateur, je souhaite accepter une proposition reçue si elle m’intéresse.
+
+- En tant qu’utilisateur, je souhaite refuser une proposition reçue si elle ne me convient pas.
+
+- En tant qu’utilisateur, je souhaite envoyer un message à un autre utilisateur afin de communiquer avec lui directement.
+
+- En tant qu’utilisateur, je souhaite consulter l’historique de mes échanges afin de suivre mes expériences passées.
+
+- En tant qu’utilisateur, je souhaite noter un utilisateur après un échange afin d’aider la communauté à juger de sa fiabilité.
+
+- En tant qu’utilisateur, je souhaite signaler un utilisateur en cas de comportement inapproprié.
+
+### User Stories pour l’administrateur
+- En tant qu’administrateur, je souhaite modérer les offres publiées afin de garantir le respect des règles de la plateforme.
+
+- En tant qu’administrateur, je souhaite superviser les évaluations laissées par les utilisateurs afin de prévenir les abus.
+
+- En tant qu’administrateur, je souhaite gérer les utilisateurs afin de suspendre ou supprimer les comptes qui ne respectent pas les règles.
+
 
 ---
 
