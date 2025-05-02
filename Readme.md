@@ -137,7 +137,7 @@
 - Déploiement du back-end et front-end sur Hostinger
 - Tests post-déploiement 
 
-
+---
 ###  Outils nécessaires au développement
 
 #### Langages & Frameworks
